@@ -1,0 +1,73 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python packaging and build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type checkers and linters
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MuJoCo / simulation outputs
+runs/
+logs/
+outputs/
+results/
+videos/
+screenshots/
+
+# Temporary and generated files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local configuration
+config.local.*
+*.local.yaml
+*.local.yml
+*.local.json
+
+# Keep project essentials tracked
+# requirements.txt
+# README.md
+# medetv.py
+# network.py
+# test_acceptance.py
+# docs/
+# MODEL/
